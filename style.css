@@ -43,19 +43,22 @@ h2{
 
 #logo{
     height: 167px;
-    width: 20%;
+    width: 40%;
 }
 
 .container{
 
     /* adjusting the size of web content */
-    width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-
     /* centering the content of the webpage */
     /* margin: auto; */
+    width: 1140px;
+
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; */
+
+    /* this does exactly what margin top / right /left are assigned to do (shorthand)*/
+    margin: 20px auto 0 auto ;
 }
 
 .blog-post{
@@ -66,11 +69,18 @@ h2{
 }
 
 .other-post{
+
     /* background-color: green; */
     width: 25%;
     float: left;
 }
 
 .author-box{
+    /* adding space in between the image and line breaker */
+    padding-top: 20px;
+
+    /* adding a line to break the author space */
+    border-top: 1px solid rgb(92, 91, 91);
+
     /* background-color: yellow; */
 }
