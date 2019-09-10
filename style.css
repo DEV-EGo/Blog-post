@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -37,4 +44,33 @@ h2{
 #logo{
     height: 167px;
     width: 20%;
+}
+
+.container{
+
+    /* adjusting the size of web content */
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    /* centering the content of the webpage */
+    /* margin: auto; */
+}
+
+.blog-post{
+    /* background-color: #0000ff; */
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+}
+
+.other-post{
+    /* background-color: green; */
+    width: 25%;
+    float: left;
+}
+
+.author-box{
+    /* background-color: yellow; */
 }
