@@ -39,12 +39,15 @@ h2{
 
 .author-text{
     font-size: 22px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 10px;
 }
 
-#logo{
+/* #logo{
     height: 167px;
     width: 40%;
-}
+} */
 
 .container{
 
@@ -83,4 +86,24 @@ h2{
     border-top: 1px solid rgb(92, 91, 91);
 
     /* background-color: yellow; */
+}
+
+.other{
+    /* creating a distance between the boxes below */
+    margin-bottom: 40px;
+}
+
+.author-box img{
+
+    height: 100px;
+    width: 100px;
+
+    /* turning the image border into a circle */
+    border-radius: 50%;
+    float: left;
+}
+
+.blog-post img{
+    height: 167px;
+    width: auto;
 }
